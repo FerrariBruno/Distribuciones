@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E5E5E5">
+
+<RadioGroup
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/rbtnGroup">
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/normal"
+        android:id="@+id/rbtnNormal"
+        android:layout_marginLeft="34dp"
+        android:layout_marginStart="34dp"
+        android:layout_marginTop="66dp"
+        android:checked="false"
+        android:textSize="20sp"
+        android:textColor="#000000" />
+
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/chiCuadrada"
+        android:id="@+id/rbtnChi"
+        android:checked="false"
+        android:textSize="20sp"
+        android:layout_marginTop="5dp"
+        android:textColor="#000000"
+        android:layout_marginLeft="34dp"
+        android:layout_marginStart="34dp" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tStudent"
+            android:id="@+id/rbtnStudent"
+            android:checked="false"
+            android:textSize="20sp"
+            android:layout_marginTop="5dp"
+            android:textColor="#000000"
+            android:layout_marginLeft="34dp"
+            android:layout_marginStart="34dp" />
+    </RadioGroup>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/eligeDistribucion"
+        android:id="@+id/lblDistribucion"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="25dp"
+        android:textSize="21sp"
+        android:textColor="#000000"
+        android:layout_marginLeft="5dp"
+        android:layout_marginStart="5dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/probabilidad"
+        android:id="@+id/lblAbscisa"
+        android:textSize="14sp"
+        android:textColor="#000000"
+        android:layout_above="@+id/txtAbscisa"
+        android:layout_alignLeft="@+id/lblDistribucion"
+        android:layout_alignStart="@+id/lblDistribucion" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/calcular"
+        android:id="@+id/btnCalcular"
+        android:layout_marginTop="20dp"
+        android:theme="@style/buttonStyle"
+        android:layout_below="@+id/txtAbscisa"
+        android:layout_centerHorizontal="true"
+        android:textColor="#E5E5E5" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/resultado"
+        android:id="@+id/lblResultado"
+        android:textSize="21sp"
+        android:textColor="#000000"
+        android:layout_marginTop="42dp"
+        android:layout_below="@+id/btnCalcular"
+        android:layout_toStartOf="@+id/txtResultado"
+        android:layout_toLeftOf="@id/txtResultado"
+        android:layout_alignRight="@+id/lblAbscisa"
+        android:layout_alignEnd="@+id/btnCalcular" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal|numberSigned"
+        android:ems="10"
+        android:id="@+id/txtAbscisa"
+        android:gravity="center"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_toLeftOf="@+id/btnCalcular"
+        android:layout_toStartOf="@+id/btnCalcular"
+        android:textColor="#000000" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:ems="10"
+        android:id="@+id/txtResultado"
+        android:gravity="center"
+        android:clickable="false"
+        android:cursorVisible="false"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/lblResultado"
+        android:layout_centerHorizontal="true"
+        android:textColor="#000000" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/gradosLibertad"
+        android:id="@+id/lblGrados"
+        android:textSize="14sp"
+        android:textColor="#000000"
+        android:layout_alignTop="@+id/lblAbscisa"
+        android:layout_alignLeft="@+id/txtGrados"
+        android:layout_alignStart="@+id/txtGrados" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:ems="10"
+        android:id="@+id/txtGrados"
+        android:gravity="center"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_toRightOf="@+id/btnCalcular"
+        android:layout_toEndOf="@+id/btnCalcular"
+        android:textColor="#000000" />
+
+</RelativeLayout>

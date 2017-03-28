@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Distribuciones</string>
+    <string name="title_activity_main">Distribuciones</string>
+    <string name="abrirNavegador">Abrir en Navegador</string>
+    <string name="chiCuadrada">Distribución Chi Cuadrada</string>
+    <string name="tStudent">Distribución T Student</string>
+    <string name="normal">Distribución Normal</string>
+    <string name="eligeDistribucion">Elige la distribución:</string>
+    <string name="probabilidad">Probabilidad:</string>
+    <string name="aclaracion">(*) El resultado se discretizará de acuerdo a los valores de las tablas incluídas</string>
+    <string name="calcular">Calcular</string>
+    <string name="resultado">Resultado:</string>
+    <string name="abscisa">Abscisa:</string>
+    <string name="gradosLibertad">Grados de libertad:</string>
+</resources>

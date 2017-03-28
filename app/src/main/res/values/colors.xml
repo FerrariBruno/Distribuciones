@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#0059b3</color>
+    <color name="colorPrimaryDark">#004c99</color>
+    <color name="colorTabScroll">#19426C</color>
+    <color name="acentoSecundario">#004c99</color>
+    <color name="colorAccent">#000000</color>
+    <color name="colorDeshabilitado">#E5E5E5</color>
+
+</resources>

@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E5E5E5">
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/rbtnGroupProb">
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/normal"
+            android:id="@+id/rbtnNormalProb"
+            android:layout_marginLeft="34dp"
+            android:layout_marginStart="34dp"
+            android:layout_marginTop="66dp"
+            android:checked="false"
+            android:textSize="20sp"
+            android:textColor="#000000" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/chiCuadrada"
+            android:id="@+id/rbtnChiProb"
+            android:checked="false"
+            android:textSize="20sp"
+            android:layout_marginTop="5dp"
+            android:textColor="#000000"
+            android:layout_marginLeft="34dp"
+            android:layout_marginStart="34dp" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tStudent"
+            android:id="@+id/rbtnStudentProb"
+            android:checked="false"
+            android:textSize="20sp"
+            android:layout_marginTop="5dp"
+            android:textColor="#000000"
+            android:layout_marginLeft="34dp"
+            android:layout_marginStart="34dp" />
+    </RadioGroup>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/eligeDistribucion"
+        android:id="@+id/lblDistribucionProb"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="25dp"
+        android:textSize="21sp"
+        android:textColor="#000000"
+        android:layout_marginLeft="5dp"
+        android:layout_marginStart="5dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/abscisa"
+        android:id="@+id/lblAbscisa"
+        android:textSize="18sp"
+        android:textColor="#000000"
+        android:layout_above="@+id/txtAbscisaProb"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/calcular"
+        android:theme="@style/buttonStyle"
+        android:id="@+id/btnCalcularProb"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/txtAbscisaProb"
+        android:layout_centerHorizontal="true"
+        android:textColor="#E5E5E5"
+        android:layout_marginBottom="10dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/resultado"
+        android:id="@+id/lblResultadoProb"
+        android:textSize="21sp"
+        android:textColor="#000000"
+        android:layout_marginTop="42dp"
+        android:layout_below="@+id/btnCalcularProb"
+        android:layout_toStartOf="@+id/txtResultadoProb"
+        android:layout_toLeftOf="@id/txtResultadoProb"
+        android:layout_alignEnd="@+id/btnCalcularProb"
+        android:layout_alignRight="@+id/btnCalcularProb"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal|numberSigned"
+        android:ems="10"
+        android:id="@+id/txtAbscisaProb"
+        android:gravity="center"
+        android:textColor="#000000"
+        android:layout_centerVertical="true"
+        android:layout_alignLeft="@+id/btnCalcularProb"
+        android:layout_alignStart="@+id/btnCalcularProb"
+        android:layout_alignRight="@+id/btnCalcularProb"
+        android:layout_alignEnd="@+id/btnCalcularProb" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:ems="10"
+        android:id="@+id/txtResultadoProb"
+        android:gravity="center"
+        android:clickable="false"
+        android:cursorVisible="false"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/lblResultadoProb"
+        android:layout_centerHorizontal="true"
+        android:textColor="#000000" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/aclaracion"
+        android:id="@+id/lblAviso"
+        android:layout_below="@+id/btnCalcularProb"
+        android:layout_alignLeft="@+id/lblDistribucionProb"
+        android:layout_alignStart="@+id/lblDistribucionProb"
+        android:layout_marginTop="2dp"
+        android:layout_alignParentStart="false"
+        android:layout_alignParentLeft="false"
+        android:textColor="#000000"
+        android:textSize="15sp" />
+
+</RelativeLayout>
