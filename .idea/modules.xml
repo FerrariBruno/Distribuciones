@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/FerrariBruno-distribuciones-731743a7705d.iml" filepath="$PROJECT_DIR$/FerrariBruno-distribuciones-731743a7705d.iml" />
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/distribuciones.iml" filepath="$PROJECT_DIR$/distribuciones.iml" />
+      <module fileurl="file://$PROJECT_DIR$/android/distribuciones_android.iml" filepath="$PROJECT_DIR$/android/distribuciones_android.iml" />
     </modules>
   </component>
 </project>

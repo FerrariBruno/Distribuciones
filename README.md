@@ -1,11 +1,16 @@
-<p align="center">
-<img src="https://lh3.googleusercontent.com/Fa6AvGjCJKr93ZiXRVIrYdWrqRplE7bS6u5ezfpUFA1is0mRDu7OM_eddNvWDz-EM-o=w300-rw" alt="Logo de Distribuciones" width="175" />
-</p>
+# distribuciones
 
-<h1 align="center"> Distribuciones </h1>
+A new Flutter project.
 
-<p> Distribuciones es una aplicación para móviles Android que facilita la búsqueda de valores en las tablas de distribuciones Normal estándar, Chi Cuadrada y T-Student. </p>
+## Getting Started
 
-<p> Surge como proyecto de uso personal, aunque en la actualidad la app está siendo utlizada por más de 350 usuarios en distintos países, como ser México, Argentina, España, Perú, Uruguay, entre otros. </p>
+This project is a starting point for a Flutter application.
 
-Distribuciones puede ser descargada <a href="https://play.google.com/store/apps/details?id=com.bruno.distribuciones" text-align="center"> aquí </a>.
+A few resources to get you started if this is your first Flutter project:
+
+- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
+- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+
+For help getting started with Flutter development, view the
+[online documentation](https://docs.flutter.dev/), which offers tutorials,
+samples, guidance on mobile development, and a full API reference.
